@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "e78ff48c-85f9-3ef5-b379-d17d59442b56",
+    "name": "MOBStorage",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "01fe6a3a-f916-35f7-9ee5-f2f79031c2e6",
+    "name": "WaterDemon",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

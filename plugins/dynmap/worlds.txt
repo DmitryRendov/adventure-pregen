@@ -1,0 +1,56 @@
+worlds:
+-   name: survival
+    title: Мир Выживания
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Карта
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 0
+-   name: survival_nether
+    title: Нижний мир (Ад)
+    enabled: true
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    extrazoomout: 2
+    hidestyle: stone
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Карта
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: nethershadows
+        image-format: default
+        mapzoomin: 0
+        mapzoomout: 3
+        boostzoom: 0
+        background: '#300806'
+        append_to_world: ''
+        protected: false
+-   name: adventure
+    title: adventure
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Мир Приключений
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 0
+-   name: survival_the_end
+    title: survival_the_end
+    enabled: true
+    extrazoomout: 2
+    maps:
