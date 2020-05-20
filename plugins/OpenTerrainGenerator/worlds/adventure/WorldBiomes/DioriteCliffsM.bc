@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
-SurfaceBlock: GRASS
+SurfaceBlock: GRASS:0
 
 GroundBlock: STONE:3
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -179,10 +183,10 @@ Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
 Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
-SurfacePatch(GRASS,AIR,63,111,STONE:3)
+SurfacePatch(GRASS:0,AIR,63,111,STONE:3)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
-UnderWaterOre(SAND,7,9,100.0,DIRT:0,GRASS:0)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
+UnderWaterOre(SAND:0,7,9,100.0,DIRT:0,GRASS:0)
 UnderWaterOre(CLAY,7,3,100.0,DIRT:0,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,8,1,100.0,DIRT:0,GRASS:0)
 Ore(DIRT:1,30,25,100.0,75,139,GRASS:0)
@@ -196,10 +200,10 @@ Plant(RoseBush,1,100.0,0,139,GRASS:0,DIRT:0)
 Plant(Peony,1,100.0,0,139,GRASS:0,DIRT:0)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS:0,DIRT:0)
 CustomStructure(GravelOreT1,1.0)
-Plant(PUMPKIN,1,3.0,0,139,GRASS:0)
-Liquid(STATIONARY_WATER,40,100.0,19,171,STONE:0)
-Liquid(STATIONARY_WATER,40,100.0,63,171,STONE:0)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Plant(PUMPKIN:2,1,3.0,0,139,GRASS:0)
+Liquid(STATIONARY_WATER:0,40,100.0,19,171,STONE:0)
+Liquid(STATIONARY_WATER:0,40,100.0,63,171,STONE:0)
+Reed(SUGAR_CANE_BLOCK:0,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

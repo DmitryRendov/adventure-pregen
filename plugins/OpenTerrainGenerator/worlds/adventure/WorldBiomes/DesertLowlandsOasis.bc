@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
-SurfaceBlock: GRASS
+SurfaceBlock: GRASS:0
 
-GroundBlock: DIRT
+GroundBlock: DIRT:0
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (GRASS,SAND,38,38),(AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (GRASS:0,SAND:0,38,38),(AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 39
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -180,26 +184,26 @@ Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(DIRT:0,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND:0,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-Ore(SAND,8,100,66.0,41,51,GRASS:0)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+Ore(SAND:0,8,100,66.0,41,51,GRASS:0)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 CustomObject(JunglePalm1,JunglePalm3,JunglePalm5)
-Ore(DIRT,3,35,50.0,63,85,GRAVEL)
+Ore(DIRT:0,3,35,50.0,63,85,GRAVEL)
 UnderWaterOre(CLAY,8,10,50.0,DIRT:0)
-UnderWaterOre(DIRT,4,7,20.0,CLAY)
+UnderWaterOre(DIRT:0,4,7,20.0,CLAY)
 Plant(Poppy,2,100.0,0,139,GRASS:0,DIRT:0,SOIL:0)
 Plant(Dandelion,2,100.0,0,139,GRASS:0,DIRT:0,SOIL:0)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS:0,DIRT:0)
-Liquid(STATIONARY_WATER,20,100.0,19,139,STONE:0)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
-Cactus(CACTUS,10,100.0,0,139,SAND:0)
-Well(SANDSTONE,STEP:1,STATIONARY_WATER,1,0.1,13,139,SAND:0)
+Liquid(STATIONARY_WATER:0,20,100.0,19,139,STONE:0)
+Reed(SUGAR_CANE_BLOCK:0,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Cactus(CACTUS:0,10,100.0,0,139,SAND:0)
+Well(SANDSTONE:0,STEP:1,STATIONARY_WATER:0,1,0.1,13,139,SAND:0)
 Plant(MELON_BLOCK,2,100.0,0,139,GRASS:0,DIRT:0,DIRT:2)
 
 #######################################################################

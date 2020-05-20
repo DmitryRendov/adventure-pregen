@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
-SurfaceBlock: GRASS
+SurfaceBlock: GRASS:0
 
 GroundBlock: STONE:3
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -179,17 +183,17 @@ Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
 Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 CustomObject(giantboulder1,giantboulder2,giantboulder3,giantboulder4,giantboulder5,giantboulder6,giantboulder7,giantboulder8,giantboulder9)
 CustomObject(SpruceBaldCypress1,SpruceBaldCypress2,SpruceBaldCypress3,SpruceBaldCypress4,SpruceBaldCypress5,SpruceBaldCypress6)
 Tree(100,OakCypress1,1,OakCypress2,1,OakCypress3,1,OakCypress4,1,OakCypress5,1)
 CustomStructure(RiverRocks,0.5,GravelOreRiverT1,1.0)
 UnderGroundLake(25,60,2,5.0,0,61)
-UnderWaterOre(SAND,7,3,100.0,DIRT:0,GRASS:0)
+UnderWaterOre(SAND:0,7,3,100.0,DIRT:0,GRASS:0)
 UnderWaterOre(CLAY,7,3,100.0,DIRT:0,STONE:0,GRAVEL)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT:0,GRASS:0)
-Liquid(STATIONARY_WATER,20,100.0,19,139,STONE:0)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Liquid(STATIONARY_WATER:0,20,100.0,19,139,STONE:0)
+Reed(SUGAR_CANE_BLOCK:0,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
 

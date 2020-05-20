@@ -61,13 +61,73 @@ ExcludedBiomes:
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT:0,SAND:0,GRASS:0,DIRT:2,STATIONARY_WATER:0,HARD_CLAY,STAINED_CLAY:0,CLAY,SANDSTONE:0,SAND:1,AIR,STONE:0,GRAVEL,LONG_GRASS:0,LONG_GRASS:1,LONG_GRASS:2,DEAD_BUSH,YELLOW_FLOWER:0,RED_ROSE:0,BROWN_MUSHROOM,RED_MUSHROOM
+SourceBlocks: STONE:1,STONE:3,STONE:5,DIRT:1,DIRT,SAND,GRASS,DIRT:2,STATIONARY_WATER,HARD_CLAY,STAINED_CLAY,CLAY,SANDSTONE,SAND:1,AIR,STONE,GRAVEL,LONG_GRASS,LONG_GRASS:1,LONG_GRASS:2,DEAD_BUSH,YELLOW_FLOWER,RED_ROSE,BROWN_MUSHROOM,RED_MUSHROOM
 
 MaxPercentageOutsideSourceBlock: 20
 
 OutsideSourceBlock: placeAnyway
 
 IsOTGPlus: false
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
 
 
 #######################################################################
@@ -78,7 +138,7 @@ IsOTGPlus: false
 
 Block(1,7,4,LEAVES:3)
 Block(-2,13,-3,LEAVES:3)
-Block(-2,12,-3,LEAVES:8)
+Block(-2,12,-3,LEAVES)
 Block(-3,11,-2,LOG:15)
 Block(-1,10,1,LEAVES:3)
 Block(-4,13,-1,LEAVES:3)
@@ -88,7 +148,7 @@ Block(-4,11,-1,LOG:15)
 Block(-1,12,1,LEAVES:3)
 Block(-1,13,1,LEAVES:3)
 Block(-6,11,0,LEAVES:3)
-Block(-1,7,0,LEAVES:8)
+Block(-1,7,0,LEAVES)
 Block(-3,11,2,LEAVES:3)
 Block(-2,11,-3,LEAVES:3)
 Block(-2,10,-3,LEAVES:3)
@@ -103,7 +163,7 @@ Block(-7,11,2,LEAVES:3)
 Block(-2,12,-4,LEAVES:3)
 Block(-6,10,-4,LEAVES:3)
 Block(0,0,-1,LOG:15)
-Block(-6,12,-4,LEAVES:8)
+Block(-6,12,-4,LEAVES)
 Block(-6,11,-4,LEAVES:3)
 Block(-9,12,-1,LEAVES:3)
 Block(-6,12,0,LEAVES:3)
@@ -111,9 +171,9 @@ Block(-3,4,-1,LOG:15)
 Block(-3,5,-1,LOG:15)
 Block(-3,6,-1,LOG:15)
 Block(-3,7,-1,LOG:15)
-Block(-7,12,-4,LEAVES:8)
+Block(-7,12,-4,LEAVES)
 Block(-3,12,-3,LEAVES:3)
-Block(0,12,-1,LEAVES:8)
+Block(0,12,-1,LEAVES)
 Block(0,11,-1,LEAVES:3)
 Block(0,13,-1,LEAVES:3)
 Block(0,7,0,LEAVES:3)
@@ -122,7 +182,7 @@ Block(0,-1,1,LOG:15)
 Block(-4,8,-1,LOG:15)
 Block(-4,7,-1,LOG:15)
 Block(-4,11,-3,LOG:15)
-Block(-4,12,-3,LEAVES:8)
+Block(-4,12,-3,LEAVES)
 Block(-1,7,2,LEAVES:3)
 Block(-5,12,-4,LEAVES:3)
 Block(-3,11,-4,LEAVES:3)
@@ -136,7 +196,7 @@ Block(-2,2,0,LOG:15)
 Block(-7,12,-2,LOG:15)
 Block(-7,13,-2,LEAVES:3)
 Block(-6,10,1,LEAVES:3)
-Block(-1,12,0,LEAVES:8)
+Block(-1,12,0,LEAVES)
 Block(-1,13,0,LEAVES:3)
 Block(-6,11,1,LEAVES:3)
 Block(-5,11,3,LEAVES:3)
@@ -159,7 +219,7 @@ Block(-1,1,1,LOG:15)
 Block(-4,12,-4,LOG:15)
 Block(-3,1,0,LOG:15)
 Block(-4,13,-4,LEAVES:3)
-Block(-3,12,-5,LEAVES:8)
+Block(-3,12,-5,LEAVES)
 Block(-5,12,-3,LEAVES:3)
 Block(1,7,0,LEAVES:3)
 Block(-7,10,0,LEAVES:3)
@@ -167,15 +227,15 @@ Block(-4,11,2,LEAVES:3)
 Block(-4,10,2,LEAVES:3)
 Block(-6,12,-2,LOG:15)
 Block(-7,12,0,LEAVES:3)
-Block(-7,11,0,LEAVES:8)
-Block(0,12,1,LEAVES:8)
+Block(-7,11,0,LEAVES)
+Block(0,12,1,LEAVES)
 Block(-7,12,-1,LEAVES:3)
 Block(-7,11,-1,LEAVES:3)
 Block(-3,6,0,LOG:15)
 Block(-3,3,0,LOG:15)
 Block(-3,2,0,LOG:15)
-Block(-1,7,4,LEAVES:8)
-Block(-2,7,2,LEAVES:8)
+Block(-1,7,4,LEAVES)
+Block(-2,7,2,LEAVES)
 Block(-2,-1,3,LOG:15)
 Block(-6,9,1,LEAVES:3)
 Block(-2,2,2,LOG:15)
@@ -197,10 +257,10 @@ Block(-4,9,-2,LOG:15)
 Block(-3,12,-6,LEAVES:3)
 Block(-1,8,3,LEAVES:3)
 Block(-5,11,-2,LOG:15)
-Block(-1,7,3,LEAVES:8)
+Block(-1,7,3,LEAVES)
 Block(-2,8,1,LEAVES:3)
 Block(-2,13,1,LEAVES:3)
-Block(-2,7,1,LEAVES:8)
+Block(-2,7,1,LEAVES)
 Block(-1,12,-1,LOG:15)
 Block(-2,3,1,LOG:15)
 Block(-1,13,-1,LEAVES:3)
@@ -214,8 +274,8 @@ Block(0,8,2,LEAVES:3)
 Block(1,8,2,LEAVES:3)
 Block(1,7,2,LEAVES:3)
 Block(-4,1,0,LOG:15)
-Block(-1,12,-3,LEAVES:8)
-Block(-5,11,1,LEAVES:8)
+Block(-1,12,-3,LEAVES)
+Block(-5,11,1,LEAVES)
 Block(-4,0,0,LOG:15)
 Block(-2,4,-1,LOG:15)
 Block(-2,3,-1,LOG:15)
@@ -227,11 +287,11 @@ Block(-1,7,-1,LEAVES:3)
 Block(-1,1,-1,LOG:15)
 Block(1,12,0,LEAVES:3)
 Block(-6,13,-1,LEAVES:3)
-Block(-6,12,-1,LEAVES:8)
-Block(-6,11,-1,LEAVES:8)
+Block(-6,12,-1,LEAVES)
+Block(-6,11,-1,LEAVES)
 Block(-4,12,0,LEAVES:3)
 Block(-4,13,0,LEAVES:3)
-Block(-4,11,0,LEAVES:8)
+Block(-4,11,0,LEAVES)
 Block(1,5,1,LEAVES:3)
 Block(-3,11,-1,LEAVES:3)
 Block(-3,12,-1,LEAVES:3)
@@ -249,7 +309,7 @@ Block(-4,11,1,LEAVES:3)
 Block(-2,2,-2,LOG:15)
 Block(-2,1,-2,LOG:15)
 Block(-2,0,-2,LOG:15)
-Block(-3,7,1,LEAVES:8)
+Block(-3,7,1,LEAVES)
 Block(-5,12,-6,LEAVES:3)
 Block(-2,7,3,LEAVES:3)
 Block(-2,13,-2,LEAVES:3)
@@ -261,7 +321,7 @@ Block(0,7,4,LEAVES:3)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BlockCheck(0,-1,0,GRASS:0,DIRT:0)
+BlockCheck(0,-1,0,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

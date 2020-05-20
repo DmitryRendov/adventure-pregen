@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: SAND
+StoneBlock: SAND:0
 
 SurfaceBlock: AIR
 
 GroundBlock: AIR
 
-SurfaceAndGroundControl: AIR, RED_SANDSTONE, -0.1, GRASS, SAND:1, 0.4, RED_SANDSTONE, RED_SANDSTONE, 0.55, GRASS, SAND:1, 0.8, RED_SANDSTONE, RED_SANDSTONE, 0.95 
+SurfaceAndGroundControl: AIR, RED_SANDSTONE:0, -0.1, GRASS:0, SAND:1, 0.4, RED_SANDSTONE:0, RED_SANDSTONE:0, 0.55, GRASS:0, SAND:1, 0.8, RED_SANDSTONE:0, RED_SANDSTONE:0, 0.95 
 
-ReplacedBlocks: (SAND,STONE,0,62),(AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (SAND:0,STONE:0,0,62),(AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -180,17 +184,17 @@ Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(DIRT:0,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND:0,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-SurfacePatch(GRASS,AIR,71,81,SAND:0)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
-Cactus(CACTUS,10,33.0,0,139,SAND:0)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SurfacePatch(GRASS:0,AIR,71,81,SAND:0)
+Reed(SUGAR_CANE_BLOCK:0,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Cactus(CACTUS:0,10,33.0,0,139,SAND:0)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 Tree(5,larchmed1,20,GroundBush,40,larchmed2,20,larchmed3,20)
 
 #######################################################################

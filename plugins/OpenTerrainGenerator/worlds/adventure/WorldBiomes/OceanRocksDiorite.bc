@@ -111,9 +111,9 @@ SurfaceBlock: STONE:3
 
 GroundBlock: STONE:3
 
-SurfaceAndGroundControl: STONE:3, STONE:3, -3.0, PRISMARINE, PRISMARINE, -2.0, STONE:3, STONE:3, -1.0, PRISMARINE, PRISMARINE, 0.0, STONE:3, STONE:3, 1.0, PRISMARINE, PRISMARINE, 2.0, STONE:3, STONE:3, 3.0 
+SurfaceAndGroundControl: STONE:3, STONE:3, -3.0, PRISMARINE:0, PRISMARINE:0, -2.0, STONE:3, STONE:3, -1.0, PRISMARINE:0, PRISMARINE:0, 0.0, STONE:3, STONE:3, 1.0, PRISMARINE:0, PRISMARINE:0, 2.0, STONE:3, STONE:3, 3.0 
 
-ReplacedBlocks: (DIRT,STONE:3,63,211),(SAND,STONE:3,66,211),(STONE,PRISMARINE,41,71),(AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (DIRT:0,STONE:3,63,211),(SAND:0,STONE:3,66,211),(STONE:0,PRISMARINE:0,41,71),(AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -181,10 +185,10 @@ Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure(RiverRocks,0.5)
 CustomStructure(RiverRocks,0.5)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 UnderGroundLake(25,60,2,5.0,0,50)
-Liquid(STATIONARY_WATER,20,100.0,19,255,STONE:0,DIRT:0,HARD_CLAY,STAINED_CLAY:0)
-Liquid(STATIONARY_LAVA,10,100.0,19,65,STONE:0,DIRT:0,HARD_CLAY,STAINED_CLAY:0)
+Liquid(STATIONARY_WATER:0,20,100.0,19,255,STONE:0,DIRT:0,HARD_CLAY,STAINED_CLAY:0)
+Liquid(STATIONARY_LAVA:0,10,100.0,19,65,STONE:0,DIRT:0,HARD_CLAY,STAINED_CLAY:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

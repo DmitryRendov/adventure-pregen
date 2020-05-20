@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
 SurfaceBlock: GRAVEL
 
-GroundBlock: STONE
+GroundBlock: STONE:0
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (GRAVEL,SAND,61,64),(GRAVEL,GRASS,65,255),(AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (GRAVEL,SAND:0,61,64),(GRAVEL,GRASS:0,65,255),(AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 74
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -180,19 +184,19 @@ Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(DIRT:0,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND:0,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
-SmallLake(STATIONARY_LAVA,2,1.0,19,131)
+SmallLake(STATIONARY_LAVA:0,2,1.0,19,131)
 UnderGroundLake(25,60,2,5.0,0,61)
-UnderWaterOre(SAND,7,3,100.0,DIRT:0,GRASS:0)
+UnderWaterOre(SAND:0,7,3,100.0,DIRT:0,GRASS:0)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT:0,GRASS:0)
 UnderWaterOre(CLAY,6,1,100.0,DIRT:0,GRASS:0)
 CustomObject(BirchForest1,BirchForest2,BirchForest5,BirchForest6,BirchForest7)
@@ -201,10 +205,10 @@ CustomObject(OakWoodland1,OakWoodland3,OakWoodland9,OakWoodland10)
 CustomObject(boulder9,boulder8,boulder7,boulder6,boulder5,boulder4,boulder3,boulder2,boulder1)
 CustomObject(forestrock1,forestrock2,forestrock3,forestrock4)
 CustomObject(plainsclutter1,plainsclutter2,plainsclutter3,plainsclutter4,plainsclutter5,plainsclutter6)
-Ore(GRASS,15,15,100.0,80,91,GRAVEL)
+Ore(GRASS:0,15,15,100.0,80,91,GRAVEL)
 Tree(1,SwampTree,50,Tree,100)
-Boulder(STONE,2,10.0,71,111,GRAVEL)
-Liquid(STATIONARY_WATER,20,100.0,19,139,STONE:0)
+Boulder(STONE:0,2,10.0,71,111,GRAVEL)
+Liquid(STATIONARY_WATER:0,20,100.0,19,139,STONE:0)
 Plant(LargeFern,5,100.0,41,139,GRASS:0)
 Plant(Poppy,4,50.0,0,139,GRASS:0)
 Plant(Dandelion,2,50.0,0,139,GRASS:0)
@@ -214,10 +218,10 @@ Plant(Peony,2,50.0,0,139,GRASS:0)
 Plant(RedMushroom,1,50.0,0,139,GRASS:0)
 Plant(BrownMushroom,1,50.0,0,139,GRASS:0)
 Plant(DoubleTallgrass,1,50.0,0,139,GRASS:0)
-Plant(PUMPKIN,1,3.0,0,139,GRASS:0)
+Plant(PUMPKIN:2,1,3.0,0,139,GRASS:0)
 Plant(OxeyeDaisy,20,50.0,30,139,GRASS:0)
 Plant(AzureBluet,20,50.0,30,139,GRASS:0)
-Reed(SUGAR_CANE_BLOCK,6,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Reed(SUGAR_CANE_BLOCK:0,6,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

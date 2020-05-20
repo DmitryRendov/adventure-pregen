@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
-SurfaceBlock: STONE
+SurfaceBlock: STONE:0
 
-GroundBlock: STONE
+GroundBlock: STONE:0
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (STONE,STAINED_CLAY:9,72,73),(STONE,STAINED_CLAY:9,76,76),(STONE,STAINED_CLAY:9,82,82),(STONE,STAINED_CLAY:9,88,89),(STONE,STAINED_CLAY:9,96,96),(STONE,STAINED_CLAY:9,98,98),(STONE,STAINED_CLAY:9,104,105),(STONE,STAINED_CLAY:9,109,109),(STONE,STAINED_CLAY:9,113,114),(STONE,STAINED_CLAY:9,121,121),(AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (STONE:0,STAINED_CLAY:9,72,73),(STONE:0,STAINED_CLAY:9,76,76),(STONE:0,STAINED_CLAY:9,82,82),(STONE:0,STAINED_CLAY:9,88,89),(STONE:0,STAINED_CLAY:9,96,96),(STONE:0,STAINED_CLAY:9,98,98),(STONE:0,STAINED_CLAY:9,104,105),(STONE:0,STAINED_CLAY:9,109,109),(STONE:0,STAINED_CLAY:9,113,114),(STONE:0,STAINED_CLAY:9,121,121),(AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -180,19 +184,19 @@ Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomStructure()
-Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(DIRT:0,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(CLAY,8,10,50.0,0,255,STONE:0,HARD_CLAY)
-Ore(SAND,8,10,50.0,0,255,STONE:0,HARD_CLAY)
+Ore(SAND:0,8,10,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(STONE:5,32,20,100.0,0,69,STONE:0)
 Ore(STONE:3,32,20,100.0,0,69,STONE:0)
 Ore(STONE:1,32,20,100.0,0,69,STONE:0)
-Ore(GRASS,20,100,90.0,80,83,STONE:0)
+Ore(GRASS:0,20,100,90.0,80,83,STONE:0)
 Plant(SNOW_BLOCK,80,50.0,81,255,GRASS:0,DIRT:0,STONE:0,STAINED_CLAY:0)
 Plant(SNOW_BLOCK,80,50.0,101,255,GRASS:0,DIRT:0,STONE:0,STAINED_CLAY:0)
 Plant(SNOW_BLOCK,80,50.0,121,255,GRASS:0,DIRT:0,STONE:0,STAINED_CLAY:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 CustomObject(OakForestSmall1,OakForestSmall2,OakForestSmall3,OakForestSmall4,OakForestSmall5,OakForestSmall6,OakForestSmall8,OakForestSmall9)
 
 #######################################################################

@@ -105,15 +105,15 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-StoneBlock: STONE
+StoneBlock: STONE:0
 
-SurfaceBlock: GRASS
+SurfaceBlock: GRASS:0
 
 GroundBlock: STONE:3
 
 SurfaceAndGroundControl: 
 
-ReplacedBlocks: (AIR,STATIONARY_LAVA,1,10)
+ReplacedBlocks: (AIR,STATIONARY_LAVA:0,1,10)
 
 ################################
 # Water / Lava & Frozen States #
@@ -125,11 +125,11 @@ WaterLevelMax: 63
 
 WaterLevelMin: 0
 
-WaterBlock: STATIONARY_WATER
+WaterBlock: STATIONARY_WATER:0
 
 IceBlock: ICE
 
-CooledLavaBlock: STATIONARY_LAVA
+CooledLavaBlock: STATIONARY_LAVA:0
 
 
 #######################################################################
@@ -148,9 +148,13 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
+GrassColor2: #FFFFFF
+
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
 
 FoliageColorIsMultiplier: true
 
@@ -180,7 +184,7 @@ Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
 Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
 Ore(EMERALD_ORE,7,1,75.0,4,32,STONE:0)
 CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
-SmallLake(STATIONARY_LAVA,6,33.0,1,8)
+SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 UnderWaterOre(CLAY,7,3,100.0,DIRT:0,STONE:0,GRAVEL)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
 CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
@@ -192,13 +196,13 @@ Plant(Dandelion,2,100.0,0,139,GRASS:0,DIRT:0)
 Plant(Lilac,1,100.0,0,139,GRASS:0,DIRT:0)
 Plant(RoseBush,1,100.0,0,139,GRASS:0,DIRT:0)
 Plant(Peony,1,100.0,0,139,GRASS:0,DIRT:0)
-Liquid(STATIONARY_WATER,40,100.0,19,171,STONE:0)
+Liquid(STATIONARY_WATER:0,40,100.0,19,171,STONE:0)
 Grass(Tallgrass,NotGrouped,15,100.0,GRASS:0,DIRT:0)
-Liquid(STATIONARY_WATER,20,100.0,19,139,STONE:0)
+Liquid(STATIONARY_WATER:0,20,100.0,19,139,STONE:0)
 CustomStructure(GravelOreT1,1.0)
 CustomObject(Geode1,Geode2,Geode3,Geode4,Geode5,Geode6)
 CustomObject(UndergroundDungeon1,UndergroundDungeon2,UndergroundDungeon3,UndergroundDungeon4,UndergroundDungeon5)
-Reed(SUGAR_CANE_BLOCK,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
+Reed(SUGAR_CANE_BLOCK:0,3,100.0,0,139,GRASS:0,DIRT:0,SAND:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

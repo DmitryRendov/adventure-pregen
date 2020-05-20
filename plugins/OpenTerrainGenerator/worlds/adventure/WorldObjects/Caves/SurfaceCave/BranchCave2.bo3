@@ -40,7 +40,7 @@ SpawnHeightVariance: 0
 
 MinHeight: 0
 
-MaxHeight: 255
+MaxHeight: 256
 
 ######################
 # Extrusion settings #
@@ -69,6 +69,66 @@ OutsideSourceBlock: placeAnyway
 
 IsOTGPlus: false
 
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithSurfaceBlock: GRASS
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -93,8 +153,8 @@ Block(-4,-8,-1,AIR)
 Block(-4,-7,-3,AIR)
 Block(-4,-7,-2,AIR)
 Block(-4,-6,-3,AIR)
-Block(-3,-18,-2,STATIONARY_LAVA:0)
-Block(-3,-17,-2,STATIONARY_LAVA:0)
+Block(-3,-18,-2,LAVA)
+Block(-3,-17,-2,LAVA)
 Block(-3,-16,-3,AIR)
 Block(-3,-16,-2,AIR)
 Block(-3,-15,-3,AIR)
@@ -166,12 +226,12 @@ Block(-3,5,0,AIR)
 Block(-3,6,-3,AIR)
 Block(-3,6,-2,AIR)
 Block(-3,6,-1,AIR)
-Block(-2,-18,-3,STATIONARY_LAVA:0)
-Block(-2,-18,-2,STATIONARY_LAVA:0)
-Block(-2,-18,-1,STATIONARY_LAVA:0)
-Block(-2,-17,-3,STATIONARY_LAVA:0)
-Block(-2,-17,-2,STATIONARY_LAVA:0)
-Block(-2,-17,-1,STATIONARY_LAVA:0)
+Block(-2,-18,-3,LAVA)
+Block(-2,-18,-2,LAVA)
+Block(-2,-18,-1,LAVA)
+Block(-2,-17,-3,LAVA)
+Block(-2,-17,-2,LAVA)
+Block(-2,-17,-1,LAVA)
 Block(-2,-16,-4,AIR)
 Block(-2,-16,-3,AIR)
 Block(-2,-16,-2,AIR)
@@ -286,53 +346,53 @@ Block(-2,6,-1,AIR)
 Block(-2,6,0,AIR)
 Block(-2,7,-3,AIR)
 Block(-2,7,-2,AIR)
-Block(-1,-18,-3,STATIONARY_LAVA:0)
-Block(-1,-18,-2,STATIONARY_LAVA:0)
-Block(-1,-18,-1,STATIONARY_LAVA:0)
-Block(-1,-17,-3,STATIONARY_LAVA:0)
-Block(-1,-17,-2,STATIONARY_LAVA:0)
-Block(-1,-17,-1,STATIONARY_LAVA:0)
-Block(-1,-16,-3,STATIONARY_LAVA:0)
+Block(-1,-18,-3,LAVA)
+Block(-1,-18,-2,LAVA)
+Block(-1,-18,-1,LAVA)
+Block(-1,-17,-3,LAVA)
+Block(-1,-17,-2,LAVA)
+Block(-1,-17,-1,LAVA)
+Block(-1,-16,-3,LAVA)
 Block(-1,-16,-2,AIR)
 Block(-1,-16,-1,AIR)
 Block(-1,-16,0,AIR)
 Block(-1,-16,1,AIR)
-Block(-1,-15,-4,STATIONARY_LAVA:0)
-Block(-1,-15,-3,STATIONARY_LAVA:0)
+Block(-1,-15,-4,LAVA)
+Block(-1,-15,-3,LAVA)
 Block(-1,-15,-2,AIR)
 Block(-1,-15,-1,AIR)
 Block(-1,-15,0,AIR)
 Block(-1,-15,1,AIR)
-Block(-1,-14,-4,STATIONARY_LAVA:0)
+Block(-1,-14,-4,LAVA)
 Block(-1,-14,-3,AIR)
 Block(-1,-14,-2,AIR)
 Block(-1,-14,-1,AIR)
 Block(-1,-14,0,AIR)
 Block(-1,-13,-5,AIR)
-Block(-1,-13,-4,STATIONARY_LAVA:0)
+Block(-1,-13,-4,LAVA)
 Block(-1,-13,-3,AIR)
 Block(-1,-13,-2,AIR)
 Block(-1,-13,-1,AIR)
 Block(-1,-13,0,AIR)
 Block(-1,-12,-5,AIR)
-Block(-1,-12,-4,STATIONARY_LAVA:0)
+Block(-1,-12,-4,LAVA)
 Block(-1,-12,-3,AIR)
 Block(-1,-12,-2,AIR)
 Block(-1,-12,-1,AIR)
 Block(-1,-12,0,AIR)
 Block(-1,-11,-5,AIR)
-Block(-1,-11,-4,STATIONARY_LAVA:0)
+Block(-1,-11,-4,LAVA)
 Block(-1,-11,-3,AIR)
 Block(-1,-11,-2,AIR)
 Block(-1,-11,-1,AIR)
 Block(-1,-11,0,AIR)
-Block(-1,-10,-4,STATIONARY_LAVA:0)
+Block(-1,-10,-4,LAVA)
 Block(-1,-10,-3,AIR)
 Block(-1,-10,-2,AIR)
 Block(-1,-10,-1,AIR)
 Block(-1,-10,0,AIR)
-Block(-1,-9,-5,STATIONARY_LAVA:0)
-Block(-1,-9,-4,STATIONARY_LAVA:0)
+Block(-1,-9,-5,STATIONARY_LAVA)
+Block(-1,-9,-4,LAVA)
 Block(-1,-9,-3,AIR)
 Block(-1,-9,-2,AIR)
 Block(-1,-9,-1,AIR)
@@ -419,80 +479,80 @@ Block(-1,7,-4,AIR)
 Block(-1,7,-3,AIR)
 Block(-1,7,-2,AIR)
 Block(-1,7,-1,AIR)
-Block(0,-18,-3,STATIONARY_LAVA:0)
-Block(0,-18,-2,STATIONARY_LAVA:0)
-Block(0,-18,-1,STATIONARY_LAVA:0)
-Block(0,-17,-3,STATIONARY_LAVA:0)
-Block(0,-17,-2,STATIONARY_LAVA:0)
-Block(0,-17,-1,STATIONARY_LAVA:0)
-Block(0,-16,-3,STATIONARY_LAVA:0)
+Block(0,-18,-3,LAVA)
+Block(0,-18,-2,LAVA)
+Block(0,-18,-1,LAVA)
+Block(0,-17,-3,LAVA)
+Block(0,-17,-2,LAVA)
+Block(0,-17,-1,LAVA)
+Block(0,-16,-3,LAVA)
 Block(0,-16,-2,AIR)
 Block(0,-16,-1,AIR)
-Block(0,-15,-3,STATIONARY_LAVA:0)
+Block(0,-15,-3,LAVA)
 Block(0,-15,-2,AIR)
 Block(0,-15,-1,AIR)
 Block(0,-15,0,AIR)
 Block(0,-14,-4,AIR)
-Block(0,-14,-3,STATIONARY_LAVA:0)
+Block(0,-14,-3,LAVA)
 Block(0,-14,-2,AIR)
 Block(0,-14,-1,AIR)
 Block(0,-14,0,AIR)
 Block(0,-13,-4,AIR)
-Block(0,-13,-3,STATIONARY_LAVA:0)
+Block(0,-13,-3,LAVA)
 Block(0,-13,-2,AIR)
 Block(0,-13,-1,AIR)
 Block(0,-13,0,AIR)
 Block(0,-12,-5,AIR)
 Block(0,-12,-4,AIR)
-Block(0,-12,-3,STATIONARY_LAVA:0)
+Block(0,-12,-3,LAVA)
 Block(0,-12,-2,AIR)
 Block(0,-12,-1,AIR)
 Block(0,-12,0,AIR)
 Block(0,-11,-4,AIR)
-Block(0,-11,-3,STATIONARY_LAVA:0)
+Block(0,-11,-3,LAVA)
 Block(0,-11,-2,AIR)
 Block(0,-11,-1,AIR)
-Block(0,-10,-3,STATIONARY_LAVA:0)
+Block(0,-10,-3,LAVA)
 Block(0,-10,-2,AIR)
 Block(0,-10,-1,AIR)
 Block(0,-9,-6,AIR)
 Block(0,-9,-5,AIR)
-Block(0,-9,-4,STATIONARY_LAVA:0)
-Block(0,-9,-3,STATIONARY_LAVA:0)
+Block(0,-9,-4,LAVA)
+Block(0,-9,-3,LAVA)
 Block(0,-9,-2,AIR)
 Block(0,-9,-1,AIR)
 Block(0,-9,0,AIR)
-Block(0,-8,-4,STATIONARY_LAVA:0)
+Block(0,-8,-4,LAVA)
 Block(0,-8,-3,AIR)
 Block(0,-8,-2,AIR)
 Block(0,-8,-1,AIR)
 Block(0,-8,0,AIR)
-Block(0,-7,-4,STATIONARY_LAVA:0)
+Block(0,-7,-4,LAVA)
 Block(0,-7,-3,AIR)
 Block(0,-7,-2,AIR)
 Block(0,-7,-1,AIR)
 Block(0,-7,0,AIR)
 Block(0,-7,1,AIR)
-Block(0,-6,-4,STATIONARY_LAVA:0)
+Block(0,-6,-4,LAVA)
 Block(0,-6,-3,AIR)
 Block(0,-6,-2,AIR)
 Block(0,-6,-1,AIR)
 Block(0,-6,0,AIR)
 Block(0,-6,1,AIR)
-Block(0,-5,-4,STATIONARY_LAVA:0)
+Block(0,-5,-4,LAVA)
 Block(0,-5,-3,AIR)
 Block(0,-5,-2,AIR)
 Block(0,-5,-1,AIR)
 Block(0,-5,0,AIR)
 Block(0,-5,1,AIR)
-Block(0,-4,-4,STATIONARY_LAVA:0)
+Block(0,-4,-4,LAVA)
 Block(0,-4,-3,AIR)
 Block(0,-4,-2,AIR)
 Block(0,-4,-1,AIR)
 Block(0,-4,0,AIR)
 Block(0,-4,1,AIR)
-Block(0,-3,-5,STATIONARY_LAVA:0)
-Block(0,-3,-4,STATIONARY_LAVA:0)
+Block(0,-3,-5,STATIONARY_LAVA)
+Block(0,-3,-4,LAVA)
 Block(0,-3,-3,AIR)
 Block(0,-3,-2,AIR)
 Block(0,-3,-1,AIR)
