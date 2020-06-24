@@ -176,6 +176,12 @@ FogThunderWeight: 0.5
 #######################################################################
 
 Dungeon(8,100.0,0,160)
+Vein(COAL_ORE,10,30,70.0,18,24,75,0,250,STONE:0,DIRT:0,HARD_CLAY)
+Vein(IRON_ORE,10,30,70.0,18,24,66,0,250,STONE:0,DIRT:0,HARD_CLAY)
+Vein(GOLD_ORE,10,30,50.0,8,14,66,0,250,STONE:0,HARD_CLAY)
+Vein(REDSTONE_ORE,10,30,50.0,16,18,66,0,250,STONE:0,HARD_CLAY)
+Vein(LAPIS_ORE,10,30,50.0,8,12,66,0,250,STONE:0,HARD_CLAY)
+Vein(EMERALD_ORE,10,20,50.0,4,12,66,0,35,STONE:0)
 Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
 Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
 Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
@@ -192,7 +198,6 @@ Ore(ICE,12,100,100.0,111,255,GRAVEL,STONE:0)
 Ore(STONE:0,12,100,100.0,106,121,DIRT:0)
 Liquid(STATIONARY_WATER:0,40,100.0,19,161,STONE:0)
 Plant(SNOW_BLOCK,80,60.0,81,139,GRASS:0,DIRT:0,LEAVES:8,STONE:0,GRAVEL)
-CustomObject(cavepocket1Copy,cavepocket2Copy,cavepocket3Copy,cavepocket9Copy,cavepocket4,cavepocket5,cavepocket6,cavepocket7,cavepocket8,cavepocket10,cavepocket11,cavepocket12,cavepocket13,cavepocket14,cavepocket15,cavepocket16,cavepocket17)
 SmallLake(STATIONARY_LAVA:0,6,33.0,1,8)
 CustomStructure()
 
